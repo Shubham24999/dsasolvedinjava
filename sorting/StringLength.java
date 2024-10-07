@@ -5,6 +5,7 @@ public class StringLength {
 
         String inp = "shubhamgupta";
         normalMethod(inp);
+        // and without using Length Inbuilt Method.
         usingRecursion(inp);
 
     }
@@ -22,7 +23,7 @@ public class StringLength {
         System.out.print("Length using normal method   : ");
         System.out.println(count);
     }
-
+    
     public static void usingRecursion(String inp) {
 
         int count = getLength(inp);
