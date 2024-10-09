@@ -21,6 +21,7 @@ public class StringLength {
             count += 1;
         }
         System.out.print("Length using normal method   : ");
+        
         System.out.println(count);
     }
     
